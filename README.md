@@ -42,6 +42,7 @@ To use this application, follow these steps:
     - Each outlet will have a 5KM radius catchment area drawn around it.
   
 4. Once `outlets.db` database created, no need to run `scraping_storing.py` again.
+5. With `check_db.py`, you can check what items are stored in the database (Make sure you have database before running `check_db.py`).
 
 ### Troubleshooting
 
