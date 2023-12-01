@@ -46,7 +46,7 @@ To use this application, follow these steps:
 - If encountering CORS issues, ensure that the Flask server has CORS enabled (for development purposes).
 - When a web application running in a browser makes a request to a server with a different origin (i.e., domain, protocol, or port), the browser's security policy might block the request due to CORS restrictions. This security mechanism prevents certain types of cross-origin requests to protect users' data and security.
 - It allows the frontend (e.g., HTML/JavaScript) hosted on a different port or domain to make requests to the Flask backend API without being blocked by the browser.
-- Make sure to specify the right SQLite name (or path) after "sqlite:///" in `scraping_storing.py`. `app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///outlets.db'`
+- Make sure to specify the right SQLite name (or path) in `app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///outlets.db'` in `scraping_storing.py`. 
 - Make sure to specify the right URL to your API endpoint in `index.html` under fetchOutlets() function.
 
 ## Contributing
