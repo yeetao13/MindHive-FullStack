@@ -40,6 +40,8 @@ To use this application, follow these steps:
 
     - The map will display markers for outlet locations fetched from the Flask API endpoint (`http://127.0.0.1:5000/outlets`).
     - Each outlet will have a 5KM radius catchment area drawn around it.
+  
+4. Once `outlets.db` database created, no need to run `scraping_storing.py` again.
 
 ### Troubleshooting
 
