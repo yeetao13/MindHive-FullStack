@@ -27,8 +27,10 @@ To use this application, follow these steps:
 ### Usage
 
 1. Run the Flask server:
-
+    
     ```bash
+    # Run scraping_storing.py first (outlets.db will be created), then run python app.py.
+    python scraping_storing.py
     python app.py
     ```
 
