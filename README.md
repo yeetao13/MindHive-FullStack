@@ -19,6 +19,7 @@ To use this application, follow these steps:
 2. Install the required Python packages using pip:
 
     ```bash
+    pip install BeautifulSoup4
     pip install Flask Flask-SQLAlchemy Flask-CORS
     pip install geopy
     ```
